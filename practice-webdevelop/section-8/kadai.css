@@ -1,0 +1,86 @@
+.top{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.my-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-bottom: 0px;
+}
+
+.my-name{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.my-job{
+    margin-top: 0;
+}
+
+.skills{
+    background: #ce7c7c;
+    text-align: center;
+}
+
+.skills > h2{
+    padding-top: 10px;
+}
+
+.item{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+    align-content: center;
+
+}
+
+.HTML{
+    background: #e00f0f;
+}
+
+.CSS{
+    background: #1916a0;
+}
+.JS{
+    background: #c7c528;
+}
+
+.items{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+
+.work-title{
+    text-align: center;
+}
+
+.works{
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+
+.works>img {
+    width: 100%;
+    height: auto;
+}
+
+.work1{
+    width: 50%;
+    text-align: center;
+}
+
+.works-text{
+    text-align: left;
+}

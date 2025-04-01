@@ -1,0 +1,19 @@
+.btn{
+    margin: auto;
+    border-radius: 9999px;
+    border: none;
+    display: block;
+    width: 120px;
+    height: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: pink;
+}
+
+.selected{
+    background-color: pink;
+}
+
+    /* background-color: isSelected ? pink : ; ←これはJSXなので当然こっちでは使えないぞ */
+    /* // インラインスタイルの注意点として、①再利用しずらい ②疑似要素がstyleタグには使えないのだ ③メディアクエリが使えない（②同様styleで使えない）④あと普通に遅い、styleタグが読み込まれるたびにstyleが再計算される */
+    /* // ::before ::after ::hover ::active とかね */

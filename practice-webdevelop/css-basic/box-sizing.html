@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sizing</title>
+    <style>
+        /* こうするとコンテンツ幅はどうなる？どこまでがコンテンツ幅だ？ */
+        /* ツールを見ればわかるのだ！とにかくボックスモデルを理解することが最重要だった！クソが余裕やん */
+        h1{
+            background: #000;
+            color: #fff;
+            width: 200px;
+            height: 100px;
+            margin: auto;
+            /* box-sizing: content-box; */
+            box-sizing: border-box;
+            /* 以下でコンテンツボックス内の者が中央に来るのだ？ */
+            text-align: center;
+            border: blue solid 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>あははは</h1>
+</body>
+</html>

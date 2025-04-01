@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初めてのCSS</title> 
+    <!-- 以下のところパス読み込み気をつけろ先頭に/付けたらあかん -->
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        h1 {
+            color: red;
+        }
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- ちなみに優先順位はインライン >> 内部参照 >> 外部参照-->
+    <h1>内部参照</h1>
+    <h2>外部参照</h2>
+    <h3 style="color: aqua;">インライン</h3>
+    <p>優先順位チェック</p>
+</body>
+</html>

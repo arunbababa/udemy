@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../../../../libs/react.development.js"></script>
+    <script src="../../../../libs/react-dom.development.js"></script>
+    <script src="../../../../libs/babel-standalone.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <!-- 以下を追加しtypeにbabelを設定することでreactを動かせる -->
+    <script type="text/babel">
+        const appE1 = document.querySelector('#app');
+        const root = ReactDOM.createRoot(appE1);
+        // typeにbabelを設定することでJSXを使うことができる、ないと駄目だよ
+        // コンポーネントは先頭大文字だよ、babelのルール
+        function ExFunctipn() {
+            return <h1>こんにちは</h1>;
+        }
+        root.render(<ExFunctipn />);
+
+        const Ex = () => {
+            return <h1>こんにちはアロー関数だよ</h1>;
+        }
+        root.render(<Ex />);
+
+        const Ex1row = () => <h1>こんにちはアロー関数だよ1行で書いたよ</h1>;
+        root.render(<Ex1row />);
+
+        // const Ex2 = () => {
+        //     return (
+        //         <div>
+        //             <h1>こんにちはアロー関数だよ</h1>
+        //             <p>これはpタグだよ</p>
+        //         </div>
+        //     );
+        // }
+        // root.render(<Ex2 />);
+
+        // 注意！最後のroot.render()のみが有効になる
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+h1,h2{
+    color: blue;
+}
+
+.lede{
+    color: green;
+}
+
+p > strong{
+    color: red;
+}
+
+#page-footer{
+    background: black;
+    color: white;
+    text-align: center;
+}

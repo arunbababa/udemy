@@ -1,0 +1,6 @@
+# 仮想環境フォルダを除外（名前に応じて書き換えてね）
+myfirst/
+myfirstvenv/
+venv/
+*.pyc
+__pycache__/
